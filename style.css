@@ -1,9 +1,35 @@
-body
-{
-    font-family: 'helvetica',sans-serif;
+body {
+    font-family: 'helvetica', sans-serif;
     color: dimgray;
+    margin: auto;
 }
 
-#menu{
-    
+.wrapper {
+    width: 50%;
+    height: auto;
+    margin:auto;
+    background-color:#DEE2E3;
+}
+
+#menu {
+    color: white;
+    font-family: 'verdana' sans-serif;
+    width: 200px;
+    text-align: center;
+    float: right;
+}
+
+#menu ul {
+    background-color: #2C3E50;
+    border-radius: 2.5px;
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#menu ul li a {
+    font-size: 1em;
+    color: #ECF0F1;
+    text-decoration: none;
 }
